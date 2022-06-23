@@ -1,0 +1,25 @@
+$primaryColor: purple;
+$secondaryColor: grey;
+
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: $primaryColor;
+}
+
+.container{
+  &-subtitle {
+    color: $secondaryColor;
+    display: block;
+    height: 140px;
+    background: url('../images/webpack-img.png');
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.src {
+  width: 10%;
+}
